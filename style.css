@@ -93,6 +93,8 @@
 #int-img{
     margin-top: 3rem;
     margin-left: 5rem;
+    width: 300px;
+    height: 300px;
 }
 .connect{
     margin-top: 6rem;
@@ -518,7 +520,7 @@
 }
 .reel-card:hover{
     box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(93, 29, 93);
+    background-color: rgb(184, 93, 184);
 }
 #reel-title{
     font-size: 30px;
@@ -546,6 +548,10 @@
     margin-left: 10rem;
     margin-top: 4rem;
 }
+#about-button:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(189, 83, 189);
+}
 #about-button a{
     color: white;
 }
@@ -566,6 +572,10 @@
 #home-button a{
     color: white;
 }
+#home-button:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(193, 87, 193);
+}
 #project-button{
     background-color: rgb(66, 30, 66);
     border: none;
@@ -583,6 +593,10 @@
 }
 #project-button a{
     color: white;
+}
+#project-button:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(194, 91, 194);
 }
 #about-button{
     background-color:rgb(66, 30, 66);
@@ -615,6 +629,10 @@
     margin-left: 28rem;
     margin-top: 4rem;
 }
+#home-button-about:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(215, 114, 215);
+}
 #home-button-about a{
     color: white;
 }
@@ -631,6 +649,10 @@
     height: 50px;
     margin-left: 28rem;
     margin-top: 4rem;
+}
+#home-button-project:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(234, 124, 234);
 }
 #home-button-project a{
     color: white;
@@ -649,6 +671,10 @@
     margin-left: 10rem;
     margin-top: 4rem;
 }
+#about-button-project:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(185, 75, 185);
+}
 #about-button-project a{
     color: white;
 }
@@ -665,6 +691,10 @@
     height: 50px;
     margin-left: 28rem;
     margin-top: 4rem;
+}
+#home-button-about:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(201, 91, 201);
 }
 #home-button-about a{
     color: white;
@@ -683,6 +713,11 @@
     margin-left: 8rem;
     margin-top: 4rem;
     
+}
+
+#project-button-about:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(182, 87, 182);
 }
 #project-button-about a{
     color: white;

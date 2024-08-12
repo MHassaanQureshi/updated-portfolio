@@ -1,0 +1,1288 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url("images/geometric-purple-background/107230-ON9HL7-802.jpg");
+    background-size: cover;
+    color: white;
+  }
+
+.intro{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    
+}
+#greet{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+#name{
+    margin-top: 10rem;
+    margin-left: -16rem;
+    font-size: 2.5rem;
+    
+}
+#name span {
+    opacity: 0;
+    
+    animation: load 2s forwards;
+    animation-timing-function: ease-in-out;
+    color:rgb(252, 120, 252);
+    -webkit-animation: load 2s forwards;
+}
+
+/* Keyframes for the animation */
+@keyframes load {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#intro-img{
+    width: 400px;
+    height: 400px;
+    margin-left: 4rem;
+    margin-top: -4rem;
+}
+#intro-in{
+    margin-top: 8rem;
+    width: 50rem;
+}
+#line-1{
+    margin-left: 4rem;
+    font-weight: 600;
+    
+
+}
+#line-1,#line-3,#line span{
+    color:rgb(252, 120, 252);
+}
+#line-2{
+    margin-left: 2rem;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#line-3{
+    margin-left: 2rem;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#line-4{
+    margin-left: 2rem;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#introdution{
+    display: flex;
+    margin-top: 4rem;
+}
+#int-img{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.connect{
+    margin-top: 6rem;
+    margin-left: 18em;
+}
+#line{
+    margin-left: 12rem;
+
+}
+#socials{
+    margin-left: 11rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+}
+#github{
+    margin-left: 2rem;
+    width: 40px;
+}
+#github img{
+    width: 60px;
+    height: 60px;
+}
+#linkedin{
+    margin-left: 2rem;
+    width: 40px;
+}
+#linkedin img{
+    width: 60px;
+    height: 60px;
+}
+#instagram{
+    margin-left: 2rem;
+    
+    
+}
+#instagram img{
+    width: 55px;
+    height: 55px;
+}
+#instagram:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 30px 20px rgb(252, 120, 252);;
+}
+#linkedin:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 30px 20px rgb(252, 120, 252);;
+}
+#github:hover{
+    background-color: rgb(252, 120, 252);
+    box-shadow: 0 0 20px 20px rgb(252, 120, 252);;
+}
+#end{
+    background-color:transparent;
+    width: 100%;
+    height: 2rem;
+    margin-top: 2rem;
+    color: rgb(252, 120, 252);
+
+}
+/* About page */
+.about{
+    display: flex;
+    margin-top: 8rem;
+}
+
+#know{
+    margin-left: 6rem;
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+#know {
+    opacity: 0;
+    
+    animation: load 2s forwards;
+    animation-timing-function: ease-in-out;
+    color:rgb(252, 120, 252);;
+    -webkit-animation: load 2s forwards;
+}
+
+/* Keyframes for the animation */
+@keyframes load {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#line2{
+    margin-left:4rem;
+    width: 45rem;
+    margin-top: 4rem;
+}
+#about-img{
+    width: 20rem;
+    height: 20rem;
+    margin-left:55rem;
+    margin-top:-18rem
+}
+#know,#line-2 span{
+    color: rgb(252, 120, 252);;
+}
+#line3{
+    font-size: 1.5rem;
+    margin-left: 3.8rem;
+    margin-top: 2rem;
+}
+#list{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#skills-button{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+#skills-head{
+    margin-top: 10rem;
+    margin-left: 25rem;
+}
+
+.skills h1 span{
+    color: rgb(252, 120, 252);;
+}
+#btn-1{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+}
+#btn-1:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-2{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+}
+#btn-2:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-3{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+}
+#btn-3:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-4{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+}
+#btn-4:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-5{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+}
+#btn-5:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-6{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 12.8rem;
+    margin-top: 3rem;
+}
+#btn-6:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-7{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+#btn-7:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-8{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+#btn-8:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+.tools{
+    margin-top: 8rem;
+    margin-left: 20rem;
+    padding-bottom: 20px;
+}
+#tools-head{
+    margin-top: 6rem;
+    margin-left: 12rem;
+}
+#tools-head span{
+    color: rgb(252, 120, 252);;
+}
+#btn-9{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+#btn-10{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+#btn-10 img{
+    width: 2rem;
+    height: 2rem;
+}
+#btn-11{
+    border: 2px solid rgb(252, 120, 252);;
+    background: transparent;
+    background-color: none;
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+#btn-9:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-10:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#btn-11:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+
+/* PROJECT page */
+#projects-head{
+    margin-top: 4rem;
+    margin-left: 20rem;
+    padding: 20px;
+}
+#head-1{
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+#head-1 span{
+    color:  rgb(252, 120, 252);
+}
+#head-2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.cards{
+    display: flex;
+    padding: 20px;
+    margin-left: 10rem;
+}
+.weather-card{
+    width: 340px;
+    height: 600px;
+    background-color: transparent;
+    border: 2px solid rgb(252, 120, 252);
+    padding: 10px;
+    margin-left: 3rem;
+}
+.weather-card:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(93, 29, 93);
+}
+#weather-img{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+#weather-title{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 2rem;
+}
+#weather-dis{
+    font-size: 20px;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+}
+
+#git-but {
+    background-color: rgb(252, 120, 252);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    width: 100px;
+    margin-left: 18px; /* Changed from rem to px */
+    cursor: pointer; /* Added cursor for better UX */
+    padding: 8px; /* Added padding for better appearance */
+    display: inline-flex; /* Flexbox to center image and text */
+    align-items: center;
+    justify-content: center;
+}
+
+#git-but img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Added margin to separate the image from text */
+}
+#demo-but {
+    background-color: rgb(252, 120, 252);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    width: 100px;
+    margin-left: 30px; /* Changed from rem to px */
+    cursor: pointer; /* Added cursor for better UX */
+    padding: 8px; /* Added padding for better appearance */
+    display: inline-flex; /* Flexbox to center image and text */
+    align-items: center;
+    justify-content: center;
+}
+
+#demo-but img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Added margin to separate the image from text */
+}
+
+
+
+/* #demo-but{
+    background-color: rgb(252, 120, 252);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    margin-left: 2rem;
+}
+#demo-but img{
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+   
+} */
+#git-but:hover{
+    background-color: rgb(93, 29, 93);;
+    
+}
+#demo-but:hover{
+    background-color:  rgb(93, 29, 93);;
+    
+}
+.reel-card{
+    width: 340px;
+    height: 600px;
+    background-color: transparent;
+    border: 2px solid rgb(252, 120, 252);
+    padding: 10px;
+    margin-left: 3rem;
+}
+.reel-card:hover{
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    background-color: rgb(93, 29, 93);
+}
+#reel-title{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+#reel-dis{
+    font-size: 15px;
+    padding: 10px;
+}
+.reel-card .button{
+    margin-top: 2rem;
+}
+#about-button{
+    background-color:rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+#about-button a{
+    color: white;
+}
+#home-button{
+    background-color: rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 28rem;
+    margin-top: 4rem;
+}
+#home-button a{
+    color: white;
+}
+#project-button{
+    background-color: rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    
+}
+#project-button a{
+    color: white;
+}
+#about-button{
+    background-color:rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+#about-button a{
+    color: white;
+}
+#home-button-about{
+    background-color: rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 28rem;
+    margin-top: 4rem;
+}
+#home-button-about a{
+    color: white;
+}
+#home-button-project{
+    background-color: rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 28rem;
+    margin-top: 4rem;
+}
+#home-button-project a{
+    color: white;
+}
+#about-button-project{
+    background-color:rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+#about-button-project a{
+    color: white;
+}
+#home-button-about{
+    background-color: rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 28rem;
+    margin-top: 4rem;
+}
+#home-button-about a{
+    color: white;
+}
+#project-button-about{
+    background-color: rgb(66, 30, 66);
+    border: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    
+}
+#project-button-about a{
+    color: white;
+}
+#project-button:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#home-button:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+#about-button:hover{
+    background-color: rgb(252, 120, 252);;
+    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
+    transform: scale(1.1);
+}
+.buttons-path{
+    padding-bottom: 20px;
+}
+
+  @media (min-width: 350px) and (max-width: 550px){
+    body {
+        overflow-x: hidden;
+       
+    }
+    
+    .intro{
+        margin-left: 2rem;
+    }
+    #greet{
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    #name{
+        margin-left: -8rem;
+        font-size: 2rem;
+    
+    }
+    #intro-img{
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 200px;
+        height: 150px;
+    }
+    #introdution{
+        width: 300px;
+        margin-top: 1rem;
+    }
+    #line-1{
+        font-size: 1.4rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #line-2{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #int-img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20rem;
+        margin-top: 22rem;
+    }
+    #line-3{
+        font-size: 1.2rem;
+        width: 180px;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    #line-4{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #about-section{
+        width: 350px;
+
+    }
+    #know{
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+    #line2{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    #line3{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+        margin-top: .4rem;
+    }
+    #list{
+        font-size: 1.2rem;
+       
+        margin-left: 1rem;
+        margin-top: .6rem;
+    }
+    #about-img{
+        margin-top: .2rem;
+        margin-left: 8rem;
+        width: 200px;
+        height: 200px;
+    }
+    #skills-head{
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+    #skills-button{
+        margin-left: 4rem;
+        
+    }
+    #btn-1{
+        margin-left: 3rem;
+    }
+    #btn-2{
+        margin-top: 3rem;
+    }
+    #btn-3{
+        margin-top: 3rem;
+    }
+    #btn-4{
+        margin-top: 3rem;
+    }
+    #btn-5{
+        margin-top: 3rem;
+    }
+    #btn-6{
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #btn-7{
+        margin-top: 3rem;
+    }
+    #btn-8{
+        margin-top: 3rem;
+    }
+    #tools-head{
+        margin-left: -15rem;
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+    #tools-button{
+        margin-left: -16rem;
+        
+    }
+    #about-button{
+        margin-left: 3rem;
+    }
+    #project-button{
+        margin-left: 4rem;
+    }
+    #project-button-about{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    #home-button-about{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .buttons-path-about{
+        padding: 20px;
+    }
+    #projects-head{
+        margin-left: .2rem;
+        width: 350px;
+    }
+    #head-1{
+        margin-left: 2rem;
+    }
+    #head-2{
+        
+        font-size: .8rem;
+        margin-left: 1rem;
+    }
+    .cards{
+        margin-left:-3rem;
+    }
+    .reel-card{
+        margin-top: 40rem;
+        margin-left: -21rem;
+    }
+    #home-button-project{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    #about-button-project{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .buttons-path-project{
+        padding: 20px;
+    }
+    .connect{
+        margin-left:-8rem;
+    }
+    #socials{
+        margin-left: 10rem;
+    }
+  }
+  @media (min-width: 760px) and (max-width:820px){
+    body {
+        overflow-x: hidden;
+       
+    }
+    
+    .intro{
+        margin-left: 3rem;
+    }
+    #greet{
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+    #name{
+        margin-left: -10rem;
+        font-size: 3rem;
+        margin-top: 10rem;
+    
+    }
+    #intro-img{
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 400px;
+        height: 300px;
+    }
+    #introdution{
+        width: 730px;
+        margin-top: 1rem;
+    }
+    #line-1{
+        font-size: 3rem;
+        width: 730px;
+        margin-left: 1rem;
+    }
+    #line-2{
+        font-size: 2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #int-img{
+        width: 300px;
+        height: 300px;
+        margin-left: -20rem;
+        margin-top: 12rem;
+    }
+    #line-3{
+        font-size: 1.2rem;
+        width: 700px;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    #line-4{
+        font-size: 1.2rem;
+        width: 700px;
+        margin-left: 1rem;
+    }
+    #about-section{
+        width: 730Spx;
+
+    }
+    #know{
+        margin-left: 6rem;
+        font-size: 4rem;
+    }
+    #line2{
+        font-size: 2rem;
+        width: 700px;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    #line3{
+        font-size: 2rem;
+        width: 700px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #list{
+        font-size: 1.8rem;
+       
+        margin-left: 1rem;
+        margin-top: .6rem;
+    }
+    #about-img{
+        margin-top: .2rem;
+        margin-left: 10rem;
+        width: 400px;
+        height: 400px;
+    }
+    #skills-head{
+        margin-left: 6rem;
+        font-size: 3rem;
+        margin-top: 4rem;
+        width: 700px;
+    }
+    #skills-button{
+        margin-left: 3rem;
+        
+    }
+    #btn-1{
+        margin-left: 3rem;
+    }
+    #btn-2{
+        margin-top: 3rem;
+    }
+    #btn-3{
+        margin-top: 3rem;
+    }
+    #btn-4{
+        margin-top: 3rem;
+    }
+    #btn-5{
+        margin-top: 3rem;
+    }
+    #btn-6{
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #btn-7{
+        margin-top: 3rem;
+    }
+    #btn-8{
+        margin-top: 3rem;
+    }
+    #tools-head{
+        margin-left: -7rem;
+        font-size: 3rem;
+        margin-top: 4rem;
+        width: 700px;
+    }
+    #tools-button{
+        margin-left: -17rem;
+        
+    }
+    #about-button{
+        margin-left: 3rem;
+    }
+    #project-button{
+        margin-left: 4rem;
+    }
+    #project-button-about{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    #home-button-about{
+        margin-top: 1rem;
+        margin-left: 15rem;
+    }
+    .buttons-path-about{
+        padding: 20px;
+    }
+    #projects-head{
+        margin-left: 12rem;
+        width: 700px;
+
+    }
+    #head-1{
+        margin-left: -5rem;
+        font-size: 4rem;
+    }
+    #head-2{
+        
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+    .cards{
+        margin-left:-3rem;
+    }
+    #home-button-project{
+        margin-top: 1rem;
+        margin-left: 14rem;
+    }
+    #about-button-project{
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .buttons-path-project{
+        padding: 20px;
+    }
+    .connect{
+        margin-left: 2rem;
+    }
+    #line{
+        margin-left: 13rem;
+    }
+  }
+
+  
+  @media (min-width: 821px) and (max-width:1024px){
+    body {
+        overflow-x: hidden;
+       
+    }
+    
+    .intro{
+        margin-left: 3rem;
+    }
+    #greet{
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+    #name{
+        margin-left: -10rem;
+        font-size: 3rem;
+        margin-top: 10rem;
+    
+    }
+    #intro-img{
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 400px;
+        height: 300px;
+    }
+    #introdution{
+        width: 730px;
+        margin-top: 1rem;
+    }
+    #line-1{
+        font-size: 3rem;
+        width: 730px;
+        margin-left: 1rem;
+    }
+    #line-2{
+        font-size: 2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #int-img{
+        width: 300px;
+        height: 300px;
+        margin-left: -20rem;
+        margin-top: 12rem;
+    }
+    #line-3{
+        font-size: 2srem;
+        width: 700px;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    #line-4{
+        font-size: 2rem;
+        width: 700px;
+        margin-left: 1rem;
+    }
+    #about-button{
+        height: 100px;
+        width: 150px;
+    }
+    #project-button{
+        height: 100px;
+        width: 150px;
+    }
+    #about-section{
+        width: 820px;
+
+    }
+    #know{
+        margin-left: 15rem;
+        font-size: 4rem;
+    }
+    #line2{
+        font-size: 3rem;
+        width: 820px;
+        margin-left: 4rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    #line3{
+        font-size: 3rem;
+        width: 820px;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    #list{
+        font-size: 2.5rem;
+       
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    #about-img{
+        margin-top: .2rem;
+        margin-left: 10rem;
+        width: 600px;
+        height: 600px;
+    }
+    #skills-head{
+        margin-left: 6rem;
+        font-size: 4rem;
+        margin-top: 4rem;
+        width: 820px;
+    }
+    #skills-button{
+        margin-left: 3rem;
+        
+    }
+    #btn-1{
+        margin-left: 3rem;
+    }
+    #btn-2{
+        margin-top: 3rem;
+    }
+    #btn-3{
+        margin-top: 3rem;
+    }
+    #btn-4{
+        margin-top: 3rem;
+    }
+    #btn-5{
+        margin-top: 3rem;
+    }
+    #btn-6{
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #btn-7{
+        margin-top: 3rem;
+    }
+    #btn-8{
+        margin-top: 3rem;
+    }
+    #tools-head{
+        margin-left: -3rem;
+        font-size: 4rem;
+        margin-top: 4rem;
+        width: 820px;
+    }
+    #tools-button{
+        margin-left: -10rem;
+        
+    }
+    #about-button{
+        margin-left: 3rem;
+    }
+    #project-button{
+        margin-left: 4rem;
+    }
+    #project-button-about{
+        margin-top: 1rem;
+        margin-left: 4rem;
+        height: 100px;
+        width: 150px;
+    }
+    #home-button-about{
+        margin-top: 1rem;
+        margin-left: 20rem;
+        height: 100px;
+        width: 150px;
+    }
+    .buttons-path-about{
+        padding: 20px;
+    }
+    #projects-head{
+        margin-left: 12rem;
+        width: 820px;
+
+    }
+    #head-1{
+        margin-left: -5rem;
+        font-size: 6rem;
+    }
+    #head-2{
+        
+        font-size: 2rem;
+        margin-left: -5rem;
+    }
+    .cards{
+        margin-left:3rem;
+    }
+    #home-button-project{
+        margin-top: 1rem;
+        margin-left: 20rem;
+        height: 100px;
+        width: 150px;
+    }
+    #about-button-project{
+        margin-top: 1rem;
+        margin-left: 3rem;
+        height: 100px;
+        width: 150px;
+    }
+    .buttons-path-project{
+        padding: 20px;
+    }
+    .connect{
+        margin-left: 5rem;
+    }
+    #line{
+        margin-left: 10rem;
+        font-size: 4rem;
+    }
+    #socials{
+        margin-left: 16rem;
+    }
+  }
+
+  

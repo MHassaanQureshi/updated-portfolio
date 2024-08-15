@@ -679,8 +679,9 @@
     transform: translateY(0);
   }
 }
-.btn-19 span {
+.btn-19 a {
   mix-blend-mode: difference;
+  color: aliceblue;
 }
 .btn-19 .text-container {
   display: block;
@@ -832,8 +833,9 @@
     transform: translateY(0);
   }
 }
-.btn-20 span {
+.btn-20 a {
   mix-blend-mode: difference;
+  color: aliceblue;
 }
 .btn-20 .text-container {
   display: block;
@@ -959,7 +961,7 @@
     margin-left: 2rem;
 }
 #weather-dis{
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
 }
 .buttons{

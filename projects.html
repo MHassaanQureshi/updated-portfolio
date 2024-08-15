@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.Hassaan Qureshi/Projects</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">M.Hassaan Qureshi</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link" class="active">Projects</a>
+                </li>
+                
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+  
     <div class="projects">
         <div id="projects-head"> 
             <h1 id="head-1">RECENT <span>WORK</span></h1>
@@ -18,14 +42,16 @@
                 <h3 id="weather-title">Weather App</h3>
                 <h4 id="weather-dis">"A simple yet powerful weather app built with HTML, CSS, and JavaScript. Get real-time weather updates, hourly forecasts, and easy-to-read data in a clean and responsive interface. Perfect for quick and accurate weather checks on the go."</h4>
                 <div class="buttons">
-                    <a href="https://github.com/MHassaanQureshi/weather-app" class="button" id="git-but">
-                        <img src="images/github (1).png" alt="GitHub Logo">
-                        Github
-                      </a>
-                      <a href="https://weather-app-neon-chi-32.vercel.app/" class="button" id="demo-but">
-                        <img src="images/demo.png" alt="reel Logo">
-                        Demo
-                      </a>
+                    <button class="btn-20">
+                        <span class="text-container">
+                          <span class="text">Source Code</span>
+                        </span>
+                      </button>
+                      <button class="btn-19">
+                        <span class="text-container">
+                          <span class="text">Demo</span>
+                        </span>
+                      </button>
                   
                 </div>
 
@@ -35,23 +61,28 @@
                 <h3 id="reel-title">Reel Downloader</h3>
                 <h4 id="reel-dis">"A user-friendly web application designed for downloading video reels from social media platforms. As a front-end team member, I helped create a responsive and intuitive interface, ensuring a seamless experience across devices. The platform allows users to easily paste reel links and download videos in various formats, with a focus on quick, secure, and reliable downloads."</h4>
                 <div class="buttons">
-                    <a href="https://github.com/MHassaanQureshi/reel-downloader" class="button" id="git-but">
-                        <img src="images/github (1).png" alt="GitHub Logo">
-                        Github
-                      </a>
+                    <button class="btn-20">
+                        <span class="text-container">
+                          <span class="text">Source Code</span>
+                        </span>
+                      </button>
                       
-                      <a href="https://reel-downloader-nine.vercel.app/" class="button" id="demo-but">
-                        <img src="images/demo.png" alt="reel Logo">
-                        Demo
-                      </a>
+                      <button class="btn-19">
+                        <span class="text-container">
+                          <span class="text">Demo</span>
+                        </span>
+                      </button>
+                        
+                      
                 </div>
 
             </div>
     </div>
     </div>
-    <div class="buttons-path-project">
+    <!-- <div class="buttons-path-project">
         <button id="home-button-project"><a href="index.html">Home</a></button>
         <button id="about-button-project"><a href="about.html">About Me</a></button>
-      </div>
+      </div> -->
 </body>
+<script src="script.js"></script>
 </html>

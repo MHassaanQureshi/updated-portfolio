@@ -76,16 +76,18 @@
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 2rem;
+        top: 4rem;
         flex-direction: column;
         /* background-color: #fff; */
-        background: rgb(37, 20, 49);
+        background: transparent;
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index: 999;
+        background-color: #8310b8;
     }
 
     .nav-link {
@@ -681,7 +683,7 @@
 }
 .btn-19 a {
   mix-blend-mode: difference;
-  color: aliceblue;
+  color:white;
 }
 .btn-19 .text-container {
   display: block;
@@ -835,7 +837,7 @@
 }
 .btn-20 a {
   mix-blend-mode: difference;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 .btn-20 .text-container {
   display: block;
@@ -921,6 +923,7 @@
     display: flex;
     padding: 20px;
     margin-left: 10rem;
+    
 }
 .cards .weather-card,
 .cards .reel-card {
@@ -942,9 +945,15 @@
     width: 340px;
     height: 600px;
     background-color: transparent;
-    border: 2px solid rgb(252, 120, 252);
+   
     padding: 10px;
     margin-left: 3rem;
+    border: 2px solid purple;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
 }
 .weather-card:hover{
     box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
@@ -954,6 +963,12 @@
     width: 300px;
     height: 200px;
     padding: 20px;
+    margin-top: 10px;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
 }
 #weather-title{
     font-size: 30px;
@@ -968,44 +983,6 @@
     display: flex;
 }
 
-#git-but {
-    background-color: rgb(252, 120, 252);
-    border: none;
-    border-radius: 10%;
-    color: white;
-    width: 100px;
-    margin-left: 18px; /* Changed from rem to px */
-    cursor: pointer; /* Added cursor for better UX */
-    padding: 8px; /* Added padding for better appearance */
-    display: inline-flex; /* Flexbox to center image and text */
-    align-items: center;
-    justify-content: center;
-}
-
-#git-but img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px; /* Added margin to separate the image from text */
-}
-#demo-but {
-    background-color: rgb(252, 120, 252);
-    border: none;
-    border-radius: 10%;
-    color: white;
-    width: 100px;
-    margin-left: 30px; /* Changed from rem to px */
-    cursor: pointer; /* Added cursor for better UX */
-    padding: 8px; /* Added padding for better appearance */
-    display: inline-flex; /* Flexbox to center image and text */
-    align-items: center;
-    justify-content: center;
-}
-
-#demo-but img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px; /* Added margin to separate the image from text */
-}
 
 
 
@@ -1027,25 +1004,23 @@
     margin-top: -2px;
    
 } */
-#git-but:hover{
-    background-color: rgb(93, 29, 93);;
-    
-}
-#demo-but:hover{
-    background-color:  rgb(93, 29, 93);;
-    
-}
+
 .reel-card{
     width: 340px;
     height: 600px;
     background-color: transparent;
-    border: 2px solid rgb(252, 120, 252);
+    border: 2px solid purple;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
     padding: 10px;
     margin-left: 3rem;
 }
 .reel-card:hover{
     box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(184, 93, 184);
+    background-color: rgb(121, 18, 121);
 }
 #reel-title{
     font-size: 30px;
@@ -1059,212 +1034,7 @@
 .reel-card .button{
     margin-top: 2rem;
 }
-#about-button{
-    background-color:rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 10rem;
-    margin-top: 4rem;
-}
-#about-button:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(189, 83, 189);
-}
-#about-button a{
-    color: white;
-}
-#home-button{
-    background-color: rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 28rem;
-    margin-top: 4rem;
-}
-#home-button a{
-    color: white;
-}
-#home-button:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(193, 87, 193);
-}
-#project-button{
-    background-color: rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    
-}
-#project-button a{
-    color: white;
-}
-#project-button:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(194, 91, 194);
-}
-#about-button{
-    background-color:rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 10rem;
-    margin-top: 4rem;
-}
-#about-button a{
-    color: white;
-}
-#home-button-about{
-    background-color: rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 28rem;
-    margin-top: 4rem;
-}
-#home-button-about:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(215, 114, 215);
-}
-#home-button-about a{
-    color: white;
-}
-#home-button-project{
-    background-color: rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 28rem;
-    margin-top: 4rem;
-}
-#home-button-project:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(234, 124, 234);
-}
-#home-button-project a{
-    color: white;
-}
-#about-button-project{
-    background-color:rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 10rem;
-    margin-top: 4rem;
-}
-#about-button-project:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(185, 75, 185);
-}
-#about-button-project a{
-    color: white;
-}
-#home-button-about{
-    background-color: rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 28rem;
-    margin-top: 4rem;
-}
-#home-button-about:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(201, 91, 201);
-}
-#home-button-about a{
-    color: white;
-}
-#project-button-about{
-    background-color: rgb(66, 30, 66);
-    border: none;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    color: white;
-    width: 100px;
-    height: 50px;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    
-}
 
-#project-button-about:hover{
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    background-color: rgb(182, 87, 182);
-}
-#project-button-about a{
-    color: white;
-}
-#project-button:hover{
-    background-color: rgb(252, 120, 252);;
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    transform: scale(1.1);
-}
-#home-button:hover{
-    background-color: rgb(252, 120, 252);;
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    transform: scale(1.1);
-}
-#about-button:hover{
-    background-color: rgb(252, 120, 252);;
-    box-shadow: 0 0 40px 10px rgb(252, 120, 252);;
-    transform: scale(1.1);
-}
-.buttons-path{
-    padding-bottom: 20px;
-}
 
   @media (min-width: 350px) and (max-width: 550px){
     body {
@@ -1450,10 +1220,196 @@
         margin-left: 10rem;
     }
   }
-  @media (min-width: 760px) and (max-width:820px){
+  @media (width: 414px){
     body {
         overflow-x: hidden;
        
+    }
+    
+    .intro{
+        margin-left: 2rem;
+    }
+    #greet{
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    #name{
+        margin-left: -8rem;
+        font-size: 2rem;
+    
+    }
+    #intro-img{
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 200px;
+        height: 150px;
+    }
+    #introduction{
+        width: 300px;
+        margin-top: 1rem;
+    }
+    #line-1{
+        font-size: 1.4rem;
+        width: 350px;
+        margin-left: 3rem;
+    }
+    #line-2{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 2rem;
+    }
+    #int-img{
+        width: 100px;
+        height: 100px;
+        margin-left: -8rem;
+        margin-top: 22rem;
+    }
+    #line-3{
+        font-size: 1.2rem;
+        width: 180px;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    #line-4{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    
+  }
+  @media (width: 360px){
+    body {
+        overflow-x: hidden;
+       
+    }
+    
+    .intro{
+        margin-left: 1rem;
+    }
+    #greet{
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    #name{
+        margin-left: -8rem;
+        font-size: 1.4rem;
+    
+    }
+    #intro-img{
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 200px;
+        height: 150px;
+    }
+    #introduction{
+        width: 300px;
+        margin-top: 1rem;
+    }
+    #line-1{
+        font-size: 1.4rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #line-2{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #int-img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20rem;
+        margin-top: 22rem;
+    }
+    #line-3{
+        font-size: 1.2rem;
+        width: 180px;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    #line-4{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #line{
+        margin-left: 10rem;
+    }
+    #socials{
+        margin-left: 9rem;
+    }
+    
+  }
+  @media (min-width:551px) and (max-width:600px){
+    body {
+        overflow-x: hidden;
+       
+    }
+    
+    .intro{
+        margin-left: 1rem;
+    }
+    #greet{
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    #name{
+        margin-left: -12rem;
+        font-size: 1.4rem;
+    
+    }
+    #intro-img{
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 200px;
+        height: 150px;
+    }
+    #introduction{
+        width: 300px;
+        margin-top: 1rem;
+    }
+    #line-1{
+        font-size: 1.4rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #line-2{
+        font-size: 1.2rem;
+        width: 400px;
+        margin-left: 1rem;
+    }
+    #int-img{
+        width: 100px;
+        height: 100px;
+        margin-left: -26rem;
+        margin-top: 22rem;
+    }
+    #line-3{
+        font-size: 1.2rem;
+        width: 300px;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    #line-4{
+        font-size: 1.2rem;
+        width: 350px;
+        margin-left: 1rem;
+    }
+    #line{
+        margin-left: -10rem;
+    }
+    #socials{
+        margin-left: -12rem;
+    }
+    
+  }
+  @media (min-width: 610px) and (max-width:820px){
+    body {
+        overflow-x: hidden;
+       
+    }
+    .navbar{
+        width: 100%;
     }
     
     .intro{
